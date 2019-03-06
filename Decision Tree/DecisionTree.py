@@ -146,7 +146,8 @@ class DecisionTree_ID3:
             np_data = np.transpose(inverted_data)
             print('Replaced',missing_data_count,'values labeled',self.missing_data_flag,'using the method',self.missing_data_method)
         else:
-            print('Did not replace missing values')
+#            print('Did not replace missing values')
+            pass
         return np_data
         
     def get_data_from_csv(self, csv_name):
