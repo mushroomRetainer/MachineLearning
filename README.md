@@ -10,3 +10,4 @@ missing_data_flag = None 		Value for missing attribute, for example "unknown" or
 missing_data_method = None		Method for dealing with missing data (defaul is to treat all labels as unique). Options are 'most common' or 'most common for label'
 full_output = False 			Give the full output of each step of the decision tree. Useful for debugging or analysizing small trees.
 
+Each of the other examples have either a single .py file or one or more diving scripts with "hoemwork" in the name that are examples of how to run the particular method.
